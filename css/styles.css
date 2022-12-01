@@ -210,4 +210,15 @@ body {
     overflow: hidden;
     border: 0px;
     border-radius: 15px 0 0 15px;
-} 
+}
+
+/* right-upper-box */
+.announcements-box {
+    margin: 0 20px;
+    background-color: white;
+    padding: 20px;
+}
+
+.announcements-box * {
+    margin: 0;
+}
