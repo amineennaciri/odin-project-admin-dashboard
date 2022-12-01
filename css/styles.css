@@ -72,21 +72,23 @@ body {
     grid-template-columns: 70% 30%;
     grid-template-rows: 50% 50%;
 }
-
-.first-left {
+ .first-left {
     align-self: center;
-    justify-self: center;
+    justify-self: stretch;
 }
 
 .first-left form {
-    width: 900px;
-    display: grid;
-    grid-template-columns: 8% 92%;/* minmax(100px, 90%) */;
+    /* width: 900px; */
+   display: grid;
+    grid-template-columns: 8% 90%;
     gap: 10px;
+/*     display: inline-grid;
+    justify-self: stretch; */
 }
 
 .first-left form button {
     grid-column: 1/2;
+    justify-self: stretch;
 }
 
 .first-left form input {
@@ -94,7 +96,8 @@ body {
     grid-column: 2/3;
     border-radius: 5px;
     background-color: #e2e8f0;
-}
+    justify-self: stretch;
+} 
 
 .first-right {
     display: flex;
